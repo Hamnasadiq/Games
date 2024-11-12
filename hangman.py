@@ -16,7 +16,7 @@ while '_'in blank_space and lives>0:
     print(blank_space)
     user_guess = input("Guess a letter: ").lower()
     if user_guess in selected_word:
-        print("\nGood guess!")
+        print("Good guess!\n")
         display=""
         for i in range(len(selected_word)) :
             if selected_word[i]==user_guess:
@@ -28,6 +28,6 @@ while '_'in blank_space and lives>0:
         lives-=1
         print("\nIncorrect guess, try again!")
 if lives > 0:
-    print(f"\nCongrats! You've guessed the word correctly")
+    print(f"\nCongrats! You've guessed the word correctly:{selected_word}")
 else:
     print(f"\nOops! you lost, The word was: {selected_word}")
