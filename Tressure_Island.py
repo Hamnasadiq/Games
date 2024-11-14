@@ -43,7 +43,6 @@ if user_input == "left":
             print("You enter a room of beasts👹. Game Over💀.")
         else:
             print("Invalid input")
-    
     elif user_input2 == "swim":
         print("You get attacked by an angry trout. Game Over💀.")
     else:

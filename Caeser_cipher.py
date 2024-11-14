@@ -32,7 +32,7 @@ while True:
                     encrypted_text.append(alphabets[replace])
                 else:
                     encrypted_text.append(letter)  
-            print("Encrypted text:", ''.join(encrypted_text))
+            print("Encrypted text:\n", ''.join(encrypted_text))
         encrypt(user_real, shift_no)
 
     #Decrypt function
@@ -45,7 +45,7 @@ while True:
                     decrypted_text.append(alphabets[replace_2])
                 else:
                     decrypted_text.append(letter) 
-            print("Decrypted text:", ''.join(decrypted_text))
+            print("Decrypted text:\n", ''.join(decrypted_text))
         decrypt(user_real, shift_no)
 
     # if the user wants to play again
